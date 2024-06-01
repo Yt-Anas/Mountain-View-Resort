@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>The Mountain View Resort</title>
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <!-- swiper js cdn link -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- custom css link -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <!-- header -->
+
+   <header class="header">
+
+      <a href="#" class="logo"> <i class="fas fa-hotel"></i> The Mountain View </a>
+
+      <nav class="navbar">
+         <a href="#home">home</a>
+         <a href="#about">about</a>
+         <a href="#room">room</a>
+         <a href="#gallery">gallery</a>
+         <a href="#review">review</a>
+         <a href="#faq">faq</a>
+         <a href="#reservation" class="btn"> book now</a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+   </header>
+
+   <!-- end -->
+
+   <!-- home -->
+
+   <section class="home" id="home">
+
+      <div class="swiper home-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide" style="background: url(images/home-slide1.jpg) no-repeat;">
+               <div class="content">
+                  <h3>Welcome To The Mountain View Resort</h3>
+                  <a href="#about" class="btn"> visit our offer</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/home-slide2.jpg) no-repeat;">
+               <div class="content">
+                  <h3>Welcome To The Mountain View Resort</h3>
+                  <a href="#about" class="btn"> visit our offer</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/home-slide3.jpg) no-repeat;">
+               <div class="content">
+                  <h3>Welcome To The Mountain View Resort</h3>
+                  <a href="#about" class="btn"> visit our offer</a>
+               </div>
+            </div>
+
+         </div>
+
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- availability -->
+
+   <section class="availability">
+
+      <form action="">
+
+         <div class="box">
+            <p>check in <span>*</span></p>
+            <input type="date" class="input">
+         </div>
+
+         <div class="box">
+            <p>check out <span>*</span></p>
+            <input type="date" class="input">
+         </div>
+
+         <div class="box">
+            <p>adults <span>*</span></p>
+            <select name="adults" id="" class="input">
+               <option value="1">1 adults</option>
+               <option value="2">2 adults</option>
+               <option value="3">3 adults</option>
+               <option value="4">4 adults</option>
+               <option value="5">5 adults</option>
+               <option value="6">6 adults</option>
+            </select>
+         </div>
+
+         <div class="box">
+            <p>children <span>*</span></p>
+            <select name="child" id="" class="input">
+               <option value="1">1 child</option>
+               <option value="2">2 child</option>
+               <option value="3">3 child</option>
+               <option value="4">4 child</option>
+               <option value="5">5 child</option>
+               <option value="6">6 child</option>
+            </select>
+         </div>
+
+         <div class="box">
+            <p>rooms <span>*</span></p>
+            <select name="rooms" id="" class="input">
+               <option value="1">1 rooms</option>
+               <option value="2">2 rooms</option>
+               <option value="3">3 rooms</option>
+               <option value="4">4 rooms</option>
+               <option value="5">5 rooms</option>
+               <option value="6">6 rooms</option>
+            </select>
+         </div>
+
+         <input type="submit" value="check availability" class="btn">
+
+      </form>
+
+   </section>
+
+   <!-- end -->
+
+
+   <!-- about -->
+
+   <section class="about" id="about">
+
+      <div class="row">
+
+         <div class="content">
+            <h3>about us</h3>
+            <p>Welcome to The Mountain View Hotel, nestled near the serene and revered Yamunotri Dham. Our hotel offers a perfect blend of luxury and comfort, ideal tourists, and families. Enjoy well-appointed rooms with modern amenities and stunning mountain views. Savor delicious cuisines at our in-house restaurant, where our chefs prepare a variety of dishes.</p>
+            <p>We provide complimentary parking and a spacious family party area for special gatherings. Our dedicated staff ensures exceptional service and hospitality, making your stay unforgettable. Discover the magic of the mountains of Yamunotri Dham with The Mountain View Hotel—your serene getaway awaits!</p>
+         </div>
+
+         <div class="image">
+            <img src="image/banner.jpg" alt="">
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- room -->
+
+   <section class="room" id="room">
+
+      <h1 class="heading">our room</h1>
+
+      <div class="swiper room-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <!-- <span class="price">&#8377;900/night</span> -->
+                  <img src="images/room-1.jpg" alt="">
+                  <!-- <a href="#" class="fas fa-shopping-cart"></a> -->
+               </div>
+               <div class="content">
+                  <h3>Family Suite</h3>
+                  <p>Spacious and cozy, perfect for a memorable family getaway near Yamunotri Dham.</p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <img src="images/room-2.jpg" alt="">
+               </div>
+               <div class="content">
+                  <h3>Luxury King Room</h3>
+                  <p>Indulge in luxury and relaxation with modern amenities and stunning scenery.</p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <img src="image/food.jpg" alt="">
+
+               </div>
+               <div class="content">
+                  <h3>Gourmet Dining</h3>
+                  <p>Savor a variety of delicious cuisines prepared with freshest ingredients in our restaurant.</p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <img src="image/parking.jpg" alt="">
+            
+               </div>
+               <div class="content">
+                  <h3>Free On-Site Parking</h3>
+                  <p>Enjoy the convenience of complimentary, secure parking during your stay.</p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">book now</a>
+               </div>
+            </div>
+
+         </div>
+
+         <div class="swiper-pagination"></div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- services -->
+
+   <section class="services">
+
+      <div class="box-container">
+
+         <div class="box">
+            <img src="images/service2.png" alt="">
+            <h3>food & drink</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/service3.png" alt="">
+            <h3>restaurant</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/service6.png" alt="">
+            <h3>Resort</h3>
+         </div>
+
+         <div class="box">
+            <img src="image/car parking 2.png" alt="">
+            <h3>Parking</h3>
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- gallery -->
+
+   <section class="gallery" id="gallery">
+
+      <h1 class="heading">our gallery</h1>
+
+      <div class="swiper gallery-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <!-- <img src="images/gallery1.jpg" alt=""> -->
+               <img src="image/yamunotri temple.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="image/bed.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="image/table.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery1.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery2.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+            <div class="swiper-slide slide">
+               <img src="images/room-1.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- review -->
+
+   <section class="review" id="review">
+
+      <div class="swiper review-slider">
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">customer's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Perfect location for visiting Yamunotri Dham. Will definitely stay here again for our next pilgrimage</p>
+               <div class="user">
+                  <!-- <img src="images/pic-1.png" alt=""> -->
+                  <div class="user-info">
+                     <h3>Aman Rawat</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">customer's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Family suite was ideal for us. Kids enjoyed the space and we loved the comfort and convenience.</p>
+               <div class="user">
+                  <div class="user-info">
+                     <h3>Rajendra Negi</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">customer's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Spacious and clean rooms with all the amenities we needed. Highly recommend for a comfortable stay. The modern decor was a nice touch.</p>
+               <div class="user">
+                  <div class="user-info">
+                     <h3>Parul Yadav</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">customer's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Free parking was a huge plus. Very convenient for travelers with cars, and the lot was secure. No worries about parking fees</p>
+               <div class="user">
+                  <div class="user-info">
+                     <h3>Anshu Bisht</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">customer's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Excellent service and hospitality. Felt like a home away from home, thanks to the wonderful staff. We were truly pampered during our stay.</p>
+               <div class="user">
+                  <div class="user-info">
+                     <h3>Himanshu Pander</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+         <div class="swiper-pagination"></div>
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- faq -->
+
+   <section class="faqs" id="faq">
+
+      <h1 class="heading">frequently asked questions</h1>
+
+      <div class="row">
+
+         <div class="image">
+            <img src="images/FAQs.gif" alt="">
+         </div>
+
+         <div class="content">
+
+            <div class="box active">
+               <h3>Is parking available at the hotel?</h3>
+               <p>Yes, we offer complimentary on-site parking for our guests.</p>
+            </div>
+
+            <div class="box">
+               <h3>Do you have a restaurant on-site?</h3>
+               <p>Yes, we have an in-house restaurant serving a variety of delicious cuisines.</p>
+            </div>
+
+            <div class="box">
+               <h3>Are there any facilities for families?</h3>
+               <p>Yes, we have spacious family suites and a dedicated party space for family gatherings.</p>
+            </div>
+
+            <div class="box">
+               <h3>What safety measures are in place at the hotel</h3>
+               <p>We prioritize the safety and well-being of our guests and have implemented various safety protocols, including regular sanitization and social distancing measures.</p>
+            </div>
+
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- reservation -->
+
+   <section class="reservation" id="reservation">
+
+      <h1 class="heading">book now</h1>
+
+      <form action="">
+
+         <div class="container">
+
+            <div class="box">
+               <p>name <span>*</span></p>
+               <input type="text" class="input" placeholder="Your Name">
+            </div>
+
+            <div class="box">
+               <p>email <span>*</span></p>
+               <input type="text" class="input" placeholder="Your Email">
+            </div>
+
+            <div class="box">
+               <p>check in <span>*</span></p>
+               <input type="date" class="input">
+            </div>
+
+            <div class="box">
+               <p>check out <span>*</span></p>
+               <input type="date" class="input">
+            </div>
+
+            <div class="box">
+               <p>adults <span>*</span></p>
+               <select name="adults" class="input">
+                  <option value="1">1 adults</option>
+                  <option value="2">2 adults</option>
+                  <option value="3">3 adults</option>
+                  <option value="4">4 adults</option>
+                  <option value="5">5 adults</option>
+                  <option value="6">6 adults</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>children <span>*</span></p>
+               <select name="child" class="input">
+                  <option value="1">1 child</option>
+                  <option value="2">2 child</option>
+                  <option value="3">3 child</option>
+                  <option value="4">4 child</option>
+                  <option value="5">5 child</option>
+                  <option value="6">6 child</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>rooms <span>*</span></p>
+               <select name="rooms" class="input">
+                  <option value="1">1 rooms</option>
+                  <option value="2">2 rooms</option>
+                  <option value="3">3 rooms</option>
+                  <option value="4">4 rooms</option>
+                  <option value="5">5 rooms</option>
+                  <option value="6">6 rooms</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>room type <span>*</span></p>
+               <select name="type" class="input">
+                  <option value="1">exclusive rooms</option>
+                  <option value="2">family rooms</option>
+                  <option value="3">daily rooms</option>
+                  <option value="4">panoramic rooms</option>
+               </select>
+            </div>
+   
+         </div>
+
+         <input type="submit" value="check availability" class="btn">
+
+      </form>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- footer -->
+
+   <section class="footer">
+
+      <div class="box-container">
+
+         <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> 7895882018 </a>
+            <a href="#"> <i class="fas fa-phone"></i> 9634724388</a>
+            <a href="#"> <i class="fas fa-envelope"></i>Mountain0123view@gmail.com  </a>
+            <a href="https://www.google.com/maps/place/Q4PH%2BRQ3+THE+MOUNTAIN+VIEW,+Naugaon,+Sauli,+Uttarakhand+249171/data=!4m2!3m1!1s0x3908b9000ad69d99:0x4e38c558ce6f525e?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESCjExLjEyOC4xMDEYACCs3wEqUSw5NDIxMjQ5Niw5NDIwNzM4OCw5NDIwNzUwNiw5NDIwODM3Niw5NDIxNzUyMyw5NDIxODY0Nyw0NzA4NzExOCw0NzA4NDM5Myw5NDIxMzIwMEICSU4%3D" target="_blank"> <i class="fas fa-map"></i> Naugaon Sauli , Yamunotri Road , Uttarkashi (UK) </a>
+         </div>
+
+         <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> about</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> rooms</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> gallery</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reservation</a>
+         </div>
+
+
+      </div>
+
+      <div class="share">
+         <a href="https://www.facebook.com/goodmohanrawat.rawat?mibextid=ZbWKwL" target="_blank" class="fab fa-facebook-f"></a>
+         <a href="https://www.instagram.com/goodmohan_rawat?igsh=MXZ3cWJueDhlcWQzeQ==" target="_blank" class="fab fa-instagram"></a>
+         <a href="https://www.google.com/maps/place/Q4PH%2BRQ3+THE+MOUNTAIN+VIEW,+Naugaon,+Sauli,+Uttarakhand+249171/data=!4m2!3m1!1s0x3908b9000ad69d99:0x4e38c558ce6f525e?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESCjExLjEyOC4xMDEYACCs3wEqUSw5NDIxMjQ5Niw5NDIwNzM4OCw5NDIwNzUwNiw5NDIwODM3Niw5NDIxNzUyMyw5NDIxODY0Nyw0NzA4NzExOCw0NzA4NDM5Myw5NDIxMzIwMEICSU4%3D" class="fab fa-google" target="_blank"></a>
+         <a href="https://www.youtube.com/@uk07rawatvlog48" target="_blank" class="fab fa-youtube"></a>
+      </div>
+
+      <div class="credit">&copy; copyright 2024 by <span>The Mountain View Hotel</span></div>
+
+   </section>
+
+   <!-- end -->
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+   <script src="script.js"></script>
+
+</body>
+</html>
